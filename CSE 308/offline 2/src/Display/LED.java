@@ -5,7 +5,7 @@ public class LED implements Display {
     private double price;
 
     LED(){
-        name = "Display.LED";
+        name = "LED";
         price = 0;
     }
 

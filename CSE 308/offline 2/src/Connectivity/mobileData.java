@@ -7,7 +7,7 @@ public class mobileData implements Connectivity {
     public double SIMPrice;
 
     mobileData(){
-        name = "Mobile Data";
+        name = "Mobile";
         SIMPrice = 0;
     }
 

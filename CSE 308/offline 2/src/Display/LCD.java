@@ -5,7 +5,7 @@ public class LCD implements Display {
     private double price;
 
     LCD(){
-        name = "Display.LCD";
+        name = "LCD";
         price = 0;
     }
 

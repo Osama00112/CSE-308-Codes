@@ -1,28 +1,35 @@
 package System;
 
-import Display.DisplayFactory;
-import Display.Display;
+import Connectivity.Connectivity;
 
 public class PoorBuilder implements IBuilder {
-    private Display type;
-    private DisplayFactory factory = new DisplayFactory();
-    private String SystemName;
+    private final Product p;
+    private final String SystemName;
     PoorBuilder(){
+        p = new Product();
         SystemName = "Poor";
+    }
+    @Override
+    public void buildDisplay() {
+        //type = factory.getDisplay(display);
+        p.addDisplay(factory.getDisplay("LED"));
     }
 
     @Override
-    public void buildDisplay() {
-        type = factory.getDisplay("Display.LED");
+    public void buildChannel(Connectivity channel) {
+        p.addConnectivity(channel);
     }
 
-//    @Override
-//    public void buildChannel(String name) {
-//
-//    }
+    @Override
+    public void buildUnit() {
+        p.addUnit(mfactory.getController("RaspberryPi"));
+    }
 
     @Override
     public String getSystem(){
         return SystemName;
+    }
+    public Product getProduct() {
+        return p;
     }
 }
