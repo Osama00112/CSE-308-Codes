@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7451f17-8614-4a6f-a1dc-8058dd3a5c14" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Problem 1/.idea/Problem_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/offline 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Connectivity/ConnectionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Connectivity/Connectivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Connectivity/broadBand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Connectivity/mobileData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Director.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Display/Display.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Display/DisplayFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Display/LCD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Display/LED.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/IBuilder1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/System/DeluxeBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/System/IBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/System/OptimalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/System/PoorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/System/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/System/SystemFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Units/ATMega323.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Units/ArduinoMega.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Units/RaspberryPi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Units/mController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/Units/mControllerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offline 2/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Connectivity/ConnectionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Connectivity/Connectivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Connectivity/broadBand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Connectivity/mobileData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Display/Display.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Display/DisplayFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Display/LCD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Display/LED.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IBuilder1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/System/DeluxeBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/System/IBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/System/OptimalBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/System/PoorBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/System/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/System/SystemFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Units/ATMega323.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Units/ArduinoMega.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Units/RaspberryPi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Units/mController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Units/mControllerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2A6p5x3YtkwlPGVmZJZSigS2xWa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="offline 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7451f17-8614-4a6f-a1dc-8058dd3a5c14" name="Changes" comment="" />
+      <created>1654339714410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654339714410</updated>
+      <workItem from="1654339718495" duration="639000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
