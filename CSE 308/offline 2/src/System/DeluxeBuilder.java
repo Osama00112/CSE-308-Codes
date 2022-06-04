@@ -8,13 +8,10 @@ public class DeluxeBuilder implements IBuilder {
     DeluxeBuilder(){
         p = new Product();
         SystemName = "Deluxe";
-        //buildDisplay("LCD");
-        //buildUnit("ATMega32");
     }
 
     @Override
     public void buildDisplay() {
-        //type = factory.getDisplay(display);
         p.addDisplay(factory.getDisplay("LCD"));
     }
 
@@ -25,7 +22,6 @@ public class DeluxeBuilder implements IBuilder {
 
     @Override
     public void buildUnit() {
-        //this.unit = mfactory.getController(unit);
         p.addUnit(mfactory.getController("ATMega32"));
     }
 
@@ -33,8 +29,18 @@ public class DeluxeBuilder implements IBuilder {
     public String getSystem(){
         return SystemName;
     }
+
+    @Override
+    public void buildAmount(int amount) {
+        p.addAmount(amount);
+    }
+
     public Product getProduct() {
         return p;
     }
+
+//    public double getHardwarePrice(){
+//
+//    }
 
 }

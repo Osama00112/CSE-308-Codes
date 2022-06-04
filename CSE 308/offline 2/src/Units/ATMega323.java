@@ -18,7 +18,7 @@ public class ATMega323 implements mController {
     }
 
     @Override
-    public double getPrice(double price) {
+    public double getPrice() {
         return price;
     }
 }

@@ -19,7 +19,7 @@ public class ArduinoMega implements mController {
     }
 
     @Override
-    public double getPrice(double price) {
+    public double getPrice() {
         return price;
     }
 }

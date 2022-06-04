@@ -12,10 +12,8 @@ public class OptimalBuilder implements IBuilder {
 
     @Override
     public void buildDisplay() {
-        //type = factory.getDisplay(display);
         p.addDisplay(factory.getDisplay("LED"));
     }
-
     @Override
     public void buildChannel(Connectivity channel) {
         p.addConnectivity(channel);
@@ -23,13 +21,17 @@ public class OptimalBuilder implements IBuilder {
 
     @Override
     public void buildUnit() {
-        //this.unit = mfactory.getController(unit);
         p.addUnit(mfactory.getController("Arduino"));
     }
 
     @Override
     public String getSystem(){
         return SystemName;
+    }
+
+    @Override
+    public void buildAmount(int amount) {
+        p.addAmount(amount);
     }
     public Product getProduct() {
         return p;

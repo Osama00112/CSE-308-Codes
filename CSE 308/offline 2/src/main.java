@@ -39,7 +39,7 @@ public class main {
 //            return ;
 //        }
 
-        System.out.println("Enter communication channel: ");
+        System.out.println("\nEnter communication channel: ");
         System.out.println("""
                 1. Broadband
                 2. Mobile Data

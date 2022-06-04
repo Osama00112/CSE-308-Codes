@@ -15,11 +15,11 @@ public class RaspberryPi implements mController {
 
     @Override
     public void setPrice(double price) {
-
+        this.price = price;
     }
 
     @Override
-    public double getPrice(double price) {
-        return 0;
+    public double getPrice() {
+        return price;
     }
 }

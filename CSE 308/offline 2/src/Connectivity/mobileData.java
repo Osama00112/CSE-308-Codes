@@ -8,7 +8,7 @@ public class mobileData implements Connectivity {
 
     mobileData(){
         name = "Mobile";
-        SIMPrice = 0;
+        SIMPrice = 75;
     }
 
     @Override

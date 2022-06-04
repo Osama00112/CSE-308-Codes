@@ -14,4 +14,6 @@ public interface IBuilder {
 
     Product getProduct();
     String getSystem();
+
+    void buildAmount(int amount);
 }

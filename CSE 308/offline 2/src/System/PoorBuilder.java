@@ -29,6 +29,12 @@ public class PoorBuilder implements IBuilder {
     public String getSystem(){
         return SystemName;
     }
+
+    @Override
+    public void buildAmount(int amount) {
+        p.addAmount(amount);
+    }
+
     public Product getProduct() {
         return p;
     }

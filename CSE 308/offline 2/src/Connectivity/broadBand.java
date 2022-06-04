@@ -7,7 +7,7 @@ public class broadBand implements Connectivity {
 
     broadBand(){
         name = "BroadBand";
-        modulePrice = 0;
+        modulePrice = 100;
     }
 
     @Override
