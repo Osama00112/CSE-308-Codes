@@ -1,4 +1,4 @@
-public class CPP_Parser implements Parser{
+public class CPP_Parser implements Parser {
     private final String parserName;
     CPP_Parser(){
         parserName = "CPP Parser";

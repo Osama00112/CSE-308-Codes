@@ -1,4 +1,4 @@
-public class C_Parser implements Parser{
+public class C_Parser implements Parser {
     private final String parserName;
     C_Parser(){
         parserName = "C Parser";

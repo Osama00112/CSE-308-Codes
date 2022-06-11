@@ -1,4 +1,9 @@
-public class FontFactory {
+public class FontFactory extends AbstractFactory {
+    @Override
+    public Parser getParser(String name) {
+        return null;
+    }
+
     public Fonts getFont(String name){
         if (name == null){
             return null;

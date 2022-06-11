@@ -39,7 +39,7 @@ public class main {
 
         System.out.println("\nEnter communication channel: ");
         System.out.println("""
-                1. Broadband
+                1. Broadband (Wifi Module)
                 2. Mobile Data
                 """);
 

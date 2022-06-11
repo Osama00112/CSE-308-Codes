@@ -1,3 +1,3 @@
-interface Parser {
-    void parse();
+public interface Parser {
+    public void parse();
 }

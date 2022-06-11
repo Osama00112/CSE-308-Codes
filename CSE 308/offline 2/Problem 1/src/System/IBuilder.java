@@ -7,7 +7,7 @@ import Units.mControllerFactory;
 
 public interface IBuilder {
     DisplayFactory factory = new DisplayFactory();
-    mControllerFactory mfactory = new mControllerFactory();
+    mControllerFactory mFactory = new mControllerFactory();
     void buildDisplay();
     void buildChannel(Connectivity channel);
     void buildUnit();

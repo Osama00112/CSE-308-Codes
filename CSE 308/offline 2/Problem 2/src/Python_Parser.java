@@ -1,4 +1,4 @@
-public class Python_Parser implements Parser{
+public class Python_Parser implements Parser {
     private final String parserName;
     Python_Parser(){
         parserName = "Python Parser";

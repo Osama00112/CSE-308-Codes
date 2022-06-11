@@ -21,7 +21,7 @@ public class OptimalBuilder implements IBuilder {
 
     @Override
     public void buildUnit() {
-        p.addUnit(mfactory.getController("Arduino"));
+        p.addUnit(mFactory.getController("Arduino"));
     }
 
     @Override

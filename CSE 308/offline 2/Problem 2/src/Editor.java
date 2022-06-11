@@ -2,11 +2,11 @@ public class Editor {
     private static Editor editor;
     private static Parser editorParser;
     private static Fonts editorFont;
-    private static parserFactory pFactory;
-    private static FontFactory fFactory;
+    private static AbstractFactory pFactory;
+    private static AbstractFactory fFactory;
     private Editor(){
-        pFactory = new parserFactory();
-        fFactory = new FontFactory();
+        pFactory = FactoryProducer.getFactory("Parser");
+        fFactory = FactoryProducer.getFactory("Font");
     }
 
     public static Editor getInstance(){

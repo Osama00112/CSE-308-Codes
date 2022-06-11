@@ -22,7 +22,7 @@ public class DeluxeBuilder implements IBuilder {
 
     @Override
     public void buildUnit() {
-        p.addUnit(mfactory.getController("RaspberryPi"));
+        p.addUnit(mFactory.getController("RaspberryPi"));
     }
 
     @Override

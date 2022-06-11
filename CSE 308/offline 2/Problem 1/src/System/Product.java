@@ -48,7 +48,7 @@ public class Product {
                 "Connectivity : " + channel.getType()+ "\n"+
                 "SingleUnit Price : " + singleUnitPrice()+ "\n"+
                 "Total amount : " + amount + "\n"+
-                "Total Price : " + totalPrice() + "\n");
+                "Total Price/year : " + totalPrice() + "\n");
     }
 
 }

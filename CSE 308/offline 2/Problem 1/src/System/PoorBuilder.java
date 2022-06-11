@@ -22,7 +22,7 @@ public class PoorBuilder implements IBuilder {
 
     @Override
     public void buildUnit() {
-        p.addUnit(mfactory.getController("ATMega32"));
+        p.addUnit(mFactory.getController("ATMega32"));
     }
 
     @Override
