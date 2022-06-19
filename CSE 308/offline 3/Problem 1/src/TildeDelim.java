@@ -3,23 +3,23 @@ import java.io.*;
 public class TildeDelim implements AnotherDelim{
     DelimAdapter adapter = new DelimAdapter();
     @Override
-    public int sum(String fileName) throws IOException {
+    public int sum(File fileName) throws IOException {
         int sum = 0;
         File temp = File.createTempFile("newFile","txt");
 
-        FileWriter fw = new FileWriter("newFile.txt");
-        File myFile = new File(fileName);
+        FileWriter fw = new FileWriter(temp);
+        //File myFile = new File(fileName);
         BufferedReader bf = new BufferedReader(new FileReader(fileName));
         String str = bf.readLine();
         String[] integerStrings = str.split("~");
-        String line = "";
+        StringBuilder line = new StringBuilder();
         for(String integerString : integerStrings){
-            line += integerString;
-            line += " ";
+            line.append(integerString);
+            line.append(" ");
         }
-        fw.write(line);
+        fw.write(line.toString());
         fw.close();
-        return adapter.sum("newFile.txt");
+        return adapter.sum(temp);
 
     }
 }

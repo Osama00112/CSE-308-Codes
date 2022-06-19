@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.IOException;
 
 public class DelimAdapter implements AnotherDelim{
@@ -6,7 +7,7 @@ public class DelimAdapter implements AnotherDelim{
         delim = new SpaceDelim();
     }
     @Override
-    public int sum(String fileName) throws IOException {
+    public int sum(File fileName) throws IOException {
         return delim.sum(fileName);
     }
 }

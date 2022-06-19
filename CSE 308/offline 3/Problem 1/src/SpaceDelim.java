@@ -2,9 +2,9 @@ import java.io.*;
 
 public class SpaceDelim implements Delim{
     @Override
-    public int sum(String fileName) throws IOException {
+    public int sum(File fileName) throws IOException {
         int sum = 0;
-        File myFile = new File(fileName);
+        //File myFile = new File(fileName);
         BufferedReader bf = new BufferedReader(new FileReader(fileName));
         String str = bf.readLine();
         String[] integerStrings = str.split(" ");

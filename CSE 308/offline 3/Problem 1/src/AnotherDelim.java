@@ -1,5 +1,6 @@
+import java.io.File;
 import java.io.IOException;
 
 public interface AnotherDelim {
-    public int sum(String fileName) throws IOException;
+    public int sum(File fileName) throws IOException;
 }
